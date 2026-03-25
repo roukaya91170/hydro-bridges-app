@@ -1,0 +1,1 @@
+from rest_framework import routers\n\nrouter = routers.DefaultRouter()\n\n# Add your routes here\n# For example: router.register(r'my_model', MyModelViewSet)\n\nurlpatterns = router.urls
